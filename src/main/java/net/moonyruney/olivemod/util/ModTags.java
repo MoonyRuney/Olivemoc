@@ -22,6 +22,7 @@ public class ModTags {
     public static class Items {
 
         public static final TagKey<Item> OLIVES = createCommonTag("olives");
+        public static final TagKey<Item> OLIVE_OILS = createCommonTag("olive_oils");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(OliveMod.MOD_ID, name));
