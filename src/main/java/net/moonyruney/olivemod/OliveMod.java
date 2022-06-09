@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 import net.moonyruney.olivemod.item.ModItems;
 import net.moonyruney.olivemod.util.ModLootTableModifiers;
+import net.moonyruney.olivemod.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,10 +17,10 @@ public class OliveMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Registering Mod Items...");
 		ModItems.registerModItems();
 
-		LOGGER.info("Modifying Loot Tables...");
+
+		ModRegistries.registerModStuffs();
 		ModLootTableModifiers.modifyLootTables();
 
 

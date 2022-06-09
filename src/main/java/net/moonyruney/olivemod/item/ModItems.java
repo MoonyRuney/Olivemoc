@@ -21,7 +21,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        OliveMod.LOGGER.info("Registering mod items for " + OliveMod.MOD_ID);
+        OliveMod.LOGGER.info("Registering Mod Items for " + OliveMod.MOD_ID);
 
     }
 
