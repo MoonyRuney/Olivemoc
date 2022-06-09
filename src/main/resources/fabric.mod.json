@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "olivemod",
+  "version": "${version}",
+
+  "name": "Olive Mod",
+  "description": "Minecraft, but with an olive!",
+  "authors": [
+    "MoonyRuney"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/olivemod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.moonyruney.olivemod.OliveMod"
+    ]
+  },
+  "mixins": [
+    "olivemod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
