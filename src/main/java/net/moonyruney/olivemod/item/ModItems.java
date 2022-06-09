@@ -9,9 +9,8 @@ import net.moonyruney.olivemod.OliveMod;
 
 public class ModItems {
 
-    public static final Item OLIVE = registerItem("olive",new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
-    public static final Item OLIVE_OIL = registerItem("oliveoil", new Item(new FabricItemSettings(). group(ItemGroup.FOOD)));
-
+    public static final Item OLIVE = registerItem("olive",new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.OLIVE)));
+    public static final Item OLIVE_OIL = registerItem("oliveoil", new Item(new FabricItemSettings(). group(ItemGroup.FOOD).food(ModFoodComponents.OLIVE_OIL)));
 
 
     private static Item registerItem(String name, Item item) {
