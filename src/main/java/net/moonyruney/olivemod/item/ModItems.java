@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item OLIVE = registerItem("olive",new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.OLIVE)));
     public static final Item OLIVE_OIL = registerItem("oliveoil", new OliveOilItem(new FabricItemSettings(). group(ItemGroup.FOOD).food(ModFoodComponents.OLIVE_OIL)));
     public static final Item IRON_BREW = registerItem("ironbrew",new IronBrew(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.IRON_BREW)));
-
+    public static final Item BUNGER = registerItem("bunger", new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.BUNGER)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(OliveMod.MOD_ID, name), item);
