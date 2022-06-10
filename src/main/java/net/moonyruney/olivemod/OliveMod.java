@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
+import net.moonyruney.olivemod.block.ModBlocks;
 import net.moonyruney.olivemod.item.ModItems;
 import net.moonyruney.olivemod.util.ModLootTableModifiers;
 import net.moonyruney.olivemod.util.ModRegistries;
@@ -18,7 +19,7 @@ public class OliveMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
 		ModLootTableModifiers.modifyLootTables();
