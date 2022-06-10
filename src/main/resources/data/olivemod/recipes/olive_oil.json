@@ -5,16 +5,16 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "item": "c:olive"
+      "tag": "c:olive"
     },
     {
-      "item": "c:olive"
+      "tag": "c:olive"
     },
     {
-      "item": "c:olive"
+      "tag": "c:olive"
     },
     {
-      "item": "c:olive"
+      "tag": "c:olive"
     }
   ],
   "result": {

@@ -5,19 +5,20 @@
       "item": "minecraft:flint"
     },
     {
-      "item": "c:wools"
+      "tag": "c:wools"
     },
     {
-      "item": "c:wools"
+      "tag": "c:wools"
     },
     {
-      "item": "c:wools"
+      "tag": "c:wools"
     },
     {
-      "item": "c:wools"
+      "tag": "c:wools"
     }
   ],
   "result": {
-    "item": "minecraft:string"
+    "item": "minecraft:string",
+    "count": 16
   }
 }
