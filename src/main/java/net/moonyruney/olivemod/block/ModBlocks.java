@@ -13,10 +13,9 @@ import net.moonyruney.olivemod.OliveMod;
 
 public class ModBlocks {
 
-    public static final Block TROLLIUM_ORE = registerBlock("trollium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f).luminance(4)), ItemGroup.MISC);
-    public static final Block DEEPSLATE_TROLLIUM_ORE = registerBlock("deepslate_trollium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.5f, 3.0f)), ItemGroup.MISC);
-
-
+    public static final Block TROLLIUM_ORE = registerBlock("trollium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f).luminance(6)), ItemGroup.MISC);
+    public static final Block DEEPSLATE_TROLLIUM_ORE = registerBlock("deepslate_trollium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.5f, 3.0f).luminance(6)), ItemGroup.MISC);
+    public static final Block TROLLIUM_BLOCK = registerBlock("trollium_block", new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(6f, 3.0f).luminance(6)), ItemGroup.MISC);
 
 
     public static final Block DECEIUM_ORE = registerBlock("deceium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f)), ItemGroup.MISC);

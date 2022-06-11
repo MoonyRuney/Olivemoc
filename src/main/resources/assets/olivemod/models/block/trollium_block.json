@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "olivemod:block/trollium_ore"
+    "all": "olivemod:block/trollium_block"
   }
 }

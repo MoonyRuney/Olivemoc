@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "olivemod:block/deepslate_trollium_ore"
-  }
+  "parent": "olivemod:block/deepslate_trollium_ore"
 }

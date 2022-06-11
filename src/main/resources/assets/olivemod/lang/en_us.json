@@ -3,6 +3,22 @@
   "item.olivemod.oliveoil": "Olive Oil",
   "item.olivemod.ironbrew": "Iron Brew",
   "item.olivemod.bunger": "Bunger",
-  "item.olivemod.redsauce": "Red Sauce"
+  "item.olivemod.redsauce": "Red Sauce",
+
+
+
+  "item.olivemod.trollium_ore":"Trollium Ore",
+  "item.olivemod.deepslate_trollium_ore":"Deepslate Trollium Ore",
+  "item.olivemod.raw_trollium": "Raw Trollium",
+  "item.olivemod.trollium_ingot": "Trollium Ingot",
+  "item.olivemod.trollium_block": "Trollium Block",
+
+
+
+  "item.olivemod.deceium_ore":"Deceium Ore",
+  "item.olivemod.deepslate_deceium_ore":"Deepslate Deceium Ore",
+  "item.olivemod.raw_deceium": "Raw Deceium",
+  "item.olivemod.deceium_ingot": "Deceium Ingot",
+  "item.olivemod.deceium_block": "Deceium Block"
 
 }
